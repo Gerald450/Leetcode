@@ -3,7 +3,22 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for i in range(k):
-            nums.insert(0, nums.pop())
+        k %= len(nums)
+
+        def reverse(start, end):
+
+            while start < end:
+                nums[start], nums[end] = nums[end], nums[start]
+                start += 1
+                end -= 1
+
+        #reverse entire arr
+        reverse(0, len(nums) - 1)
+        #reverse first k elements
+        reverse(0, k - 1)
+        #reverse rest
+        reverse(k, len(nums) - 1)
+
+
 
         
