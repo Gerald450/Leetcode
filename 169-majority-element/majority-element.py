@@ -1,11 +1,11 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        #create a frequency dic
-        #find key that has value > n/2
-        
-        hashmap = Counter(nums)
+        count = 0
+        candidate = None
 
-        for key, value in hashmap.items():
-            if value > (len(nums)/ 2):
-                return key
+        for num in nums:
+            if count == 0:
+                candidate = num
+            count += 1 if num == candidate else -1
 
+        return candidate
