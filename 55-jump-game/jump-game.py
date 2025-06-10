@@ -1,27 +1,9 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
-        l = len(nums) - 1
-        flag = True  # Start with True, assume we can reach the end
+        goal = len(nums) - 1
 
-        if len(nums) == 1:
-            return True
+        for i in range(len(nums) - 1, -1, -1):
+            if i + nums[i] >= goal:
+                goal = i
 
-        while l >= 0:
-            if nums[l] == 0 and l != len(nums) - 1:
-                r = l
-                flag = False  # Assume stuck for now
-
-                # Move left to find a jumper that can bypass zero
-                l -= 1
-                while l >= 0:
-                    if nums[l] > r - l:
-                        flag = True  # Found a jumper
-                        break
-                    l -= 1
-
-                if not flag:
-                    return False
-            else:
-                l -= 1
-
-        return True
+        return True if goal == 0 else False
