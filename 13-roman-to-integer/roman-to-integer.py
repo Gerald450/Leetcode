@@ -15,12 +15,9 @@ class Solution:
         while l < len(s):
             if l < len(s) - 1 and romanDict[s[l+1]] > romanDict[s[l]] :
                 total += (romanDict[s[l+1]] - romanDict[s[l]])
-                print(l, romanDict[s[l+1]] - romanDict[s[l]])
                 l += 1
-
             else:
                 total += romanDict[s[l]]
-                print(l,romanDict[s[l]])
 
             l += 1
         return total
