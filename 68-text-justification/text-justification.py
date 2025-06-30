@@ -1,40 +1,50 @@
-from typing import List
-
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        result = []
-        line = []
-        line_length = 0
-
+        otp = []
+        length, line = 0, []
         i = 0
+
         while i < len(words):
-            word = words[i]
+            if len(words[i]) + len(line) + length > maxWidth:
 
-            if line_length + len(line) + len(word) > maxWidth:
-                # Time to justify current line
-                spaces_needed = maxWidth - line_length
-                if len(line) == 1:
-                    result.append(line[0] + ' ' * spaces_needed)
-                else:
-                    even_space = spaces_needed // (len(line) - 1)
-                    extra_space = spaces_needed % (len(line) - 1)
-                    justified = ''
-                    for j in range(len(line) - 1):
-                        justified += line[j] + ' ' * (even_space + (1 if j < extra_space else 0))
-                    justified += line[-1]
-                    result.append(justified)
+                extraSpaces = maxWidth - length
+                spaces = extraSpaces // max(1, len(line) - 1)
+                remainder = extraSpaces % max(1, len(line) - 1)
 
-                # Reset line
-                line = []
-                line_length = 0
-            else:
-                line.append(word)
-                line_length += len(word)
-                i += 1
+                for j in range(max(1, len(line) - 1)):
+                    line[j] += ' ' * spaces
+                    if remainder:
+                        line[j] += ' '
+                        remainder -= 1
+                
+                otp.append(''.join(line))
+                length, line = 0, []
 
-        # Last line (left-justified)
-        last_line = ' '.join(line)
-        last_line += ' ' * (maxWidth - len(last_line))
-        result.append(last_line)
+            
+            line.append(words[i])
+            length += len(words[i])
+            i += 1
 
-        return result
+        
+        #last line
+        lastLine = ' '.join(line)
+        otp.append(lastLine + ' ' * (maxWidth - len(lastLine)))
+
+        return otp
+
+
+        
+
+                    
+                    
+
+
+            
+
+
+                
+                
+
+
+
+        
