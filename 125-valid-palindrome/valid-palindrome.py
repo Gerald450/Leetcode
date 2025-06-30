@@ -3,11 +3,18 @@ class Solution:
         
         otp = []
 
-        for letter in s:
-            if letter.isalnum():
-                otp.append(letter.lower())
+
+        def isAlnum(letter):
+            return (ord('a') <= ord(letter) <= ord('z') or ord('0') <= ord(letter) <= ord('9')      or ord('A') <= ord(letter) <= ord('Z'))
                 
+            
+
+        for letter in s:
+            if isAlnum(letter):
+                otp.append(letter.lower())
+
         l, r = 0, len(otp) - 1
+
 
         while l < r:
             if otp[l] != otp[r]:
