@@ -3,16 +3,16 @@ class Solution:
         if len(s) > len(t):
             return False
 
-        otp = ''
+    
 
         l,r = 0,0
 
         while l < len(s) and r < len(t):
             if s[l] == t[r]:
-                otp += t[r]
                 l += 1
             r += 1
 
         
-        return otp == s
+        
+        return True if l == len(s) else False
         
