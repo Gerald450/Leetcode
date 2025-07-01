@@ -1,18 +1,23 @@
-from typing import List
-
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        size = float('inf')  # Start with "infinity" to track minimum
-        l = 0
-        total = 0
+        l, total = 0, 0
+        res = float('inf')
 
         for r in range(len(nums)):
             total += nums[r]
-            
-            # Try to shrink the window
+
             while total >= target:
-                size = min(size, r - l + 1)
+                res = min(res, r - l + 1)
                 total -= nums[l]
                 l += 1
 
-        return 0 if size == float('inf') else size
+        return 0 if res == float('inf') else res
+            
+
+
+
+
+
+
+
+        
