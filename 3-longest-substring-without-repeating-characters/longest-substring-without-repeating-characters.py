@@ -12,6 +12,5 @@ class Solution:
                 l += 1
             hashmap.add(s[r])
             substring = max(substring, len(hashmap))
-            print(l, r, hashmap)
 
         return substring
