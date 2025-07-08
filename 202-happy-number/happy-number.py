@@ -3,28 +3,21 @@ class Solution:
         
         otp = []
         total = n
+        seen = set()
 
 
         while total != 1:
-
-
+            if total in seen:
+                return False
+            seen.add(total)
 
             strs = str(total)
-
-            if total == 7:
-                return True
-
-
-            if len(strs) == 1 and total != 1:
-                return False
-    
             total = 0
 
             for num in strs:
                 total += (int(num)**2)
 
     
-
         return True
             
 
