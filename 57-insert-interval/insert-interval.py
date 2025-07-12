@@ -9,7 +9,7 @@ class Solution:
 
         stack = [intervals[0]]
 
-        for x, y in intervals:
+        for x, y in intervals[1:]:
             start, end = stack[-1]
 
             if end >= x:
