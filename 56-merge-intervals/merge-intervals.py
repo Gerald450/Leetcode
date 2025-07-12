@@ -1,26 +1,30 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        events = []
+        #1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+        #if end >= start
+        #sort by start
+        # sorted(intervals, key=lambda x: x[0], reverse = True)
 
-        for start, end in intervals:
-            events.append((start, 'start'))
-            events.append((end, 'end'))
+       
 
-        # Sort events — if same time, 'start' comes before 'end'
-        events.sort(key=lambda x: (x[0], 0 if x[1] == 'start' else 1))
+        if len(intervals) == 1:
+            return intervals
 
-        merged = []
-        active = 0
-        start_time = None
+        intervals = sorted(intervals, key=lambda x:x[0])
+        stack = [intervals[0]]
 
-        for time, typ in events:
-            if typ == 'start':
-                if active == 0:
-                    start_time = time
-                active += 1
-            else:  # 'end'
-                active -= 1
-                if active == 0:
-                    merged.append([start_time, time])
 
-        return merged
+        for x, y in intervals:
+            start, end = stack[-1]
+
+            if end >= x:
+                stack.pop()
+                stack.append([start, max(y, end)])
+            else:
+                stack.append([x, y])
+
+        return stack
+
+       
+
+
