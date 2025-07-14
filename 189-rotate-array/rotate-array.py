@@ -10,7 +10,7 @@ class Solution:
                 nums[start], nums[end] = nums[end], nums[start]
                 start += 1
                 end -= 1
-        #for the committ
+        #for the commit
         #reverse entire arr
         reverse(0, len(nums) - 1)
         #reverse first k elements
