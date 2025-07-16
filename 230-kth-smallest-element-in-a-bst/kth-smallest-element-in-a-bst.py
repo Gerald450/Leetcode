@@ -10,9 +10,10 @@ class Solution:
         otp = 0
 
         def dfs(node):
-            if not node:
-                return
             nonlocal n, otp
+            if not node or n >= k:
+                return
+
             dfs(node.left)
 
             if k - 1 == n:
