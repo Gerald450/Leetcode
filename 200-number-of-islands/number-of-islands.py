@@ -18,8 +18,8 @@ class Solution:
                     
                     r, c = row + dr, col + dc
 
-                    if (0 <= r < rows  and
-                        0 <= c < cols  and
+                    if (r in range(rows) and
+                        c in range(cols) and
                         (r, c) not in seen and
                         grid[r][c] == '1'):
                         q.append((r,c))
