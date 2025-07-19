@@ -23,7 +23,7 @@ class Solution:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-
+        #for commit
             if count % 2 == 0:
                 level.reverse()
             otp.append(level)
