@@ -1,18 +1,30 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        num = ''
+        digits.reverse()
 
-        for digit in digits:
-            num += str(digit)
+        carry = 0
+        print(digits)
 
-        num = int(num)
-        num += 1
-        num = str(num)
-        otp = []
+        for idx, digit in enumerate(digits):
+            total = digit + carry 
+            if idx == 0:
+                total += 1
 
-        for n in num:
-            otp.append(int(n))
 
-        return otp
+            carry = total // 10
+            total = total % 10
+           
+    
+
+            digits[idx] = total
+            
+
+        if carry:
+            digits.append(carry)
+
+        digits.reverse()
+
+        return digits
+
 
         
