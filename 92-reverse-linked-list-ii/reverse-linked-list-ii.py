@@ -25,6 +25,7 @@ class Solution:
         for i in range(len(lst)):
             newNode.next = ListNode(lst[i])
             newNode = newNode.next
+        #commit
 
         return newDummy.next
 
