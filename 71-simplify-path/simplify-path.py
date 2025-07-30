@@ -10,7 +10,6 @@ class Solution:
             if i >= len(path):
                 break
             
-            print(stack)
             if path[i] == '.':
                 i += 1
             elif path[i] == '..':
