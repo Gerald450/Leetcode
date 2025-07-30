@@ -3,13 +3,15 @@ class Solution:
         path = path.split('/')
         stack = []
         i = 0
-        print(path)
+    
         while i < len(path):
             while i < len(path) and  path[i] == '':
                 i += 1
+
             if i >= len(path):
                 break
             
+
             if path[i] == '.':
                 i += 1
             elif path[i] == '..':
