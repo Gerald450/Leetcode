@@ -3,7 +3,6 @@ class Solution:
         if n == 0:
             return 0
 
-
         bits = ''
 
         while n // 2 != 0:
@@ -15,6 +14,7 @@ class Solution:
         bits = bits[::-1].zfill(32)
         
         otp = 0
+        #commit
 
         for i in range(len(bits)):
             if bits[i] == '1':
