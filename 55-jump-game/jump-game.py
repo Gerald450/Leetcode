@@ -7,3 +7,4 @@ class Solution:
                 goal = i
 
         return True if goal == 0 else False
+        
