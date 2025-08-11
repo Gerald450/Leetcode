@@ -9,5 +9,7 @@ class Solution:
                     dp[i] = dp[i + len(w)]
                 if dp[i]:
                     break
+
+                #committt
         return dp[0]
         
