@@ -2,21 +2,24 @@ class Trie:
 
     def __init__(self):
         self.arr = []
+        self.hashmap = set()
         
 
     def insert(self, word: str) -> None:
         self.arr.append(word)
+        self.hashmap.add(word)
         
 
     def search(self, word: str) -> bool:
-        if word in self.arr:
-            return True
-        return False
+        
+        return word in self.hashmap
         
 
     def startsWith(self, prefix: str) -> bool:
         n = len(prefix)
         for word in self.arr:
+            if n > len(word):
+                continue
             if word[:n] == prefix:
                 return True
         return False
