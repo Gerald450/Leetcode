@@ -15,10 +15,12 @@ class Solution:
         #reverse first k elements
         reverse(0, k - 1)
         #reverse rest
-        reverse(k, len(nums) - 1)
+        n = len(nums) - 1
+        reverse(k, n)
 
         #commit
         #commit 2
+
 
 
 
