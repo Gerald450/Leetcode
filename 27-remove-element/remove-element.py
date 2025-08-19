@@ -6,4 +6,6 @@ class Solution:
             if nums[i] != val:
                 nums[k] = nums[i]
                 k += 1
+
+        #commit
         return k
