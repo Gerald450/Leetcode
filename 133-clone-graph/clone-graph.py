@@ -9,4 +9,18 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        return copy.deepcopy(node)
+        hashmap = {}
+
+        def clone(node):
+            if node in hashmap:
+                return hashmap[node]
+            
+            copy = Node(node.val)
+            hashmap[node] = copy
+
+            for nei in node.neighbors:
+                copy.neighbors.append(clone(nei))
+
+            return copy
+        
+        return clone(node) if node else None
