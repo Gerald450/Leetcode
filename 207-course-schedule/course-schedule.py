@@ -23,8 +23,8 @@ class Solution:
             return True
 
 
-        for p in prerequisites:
-            if not dfs(p[0]): return False
+        for p in range(numCourses):
+            if not dfs(p): return False
 
         return True
             
