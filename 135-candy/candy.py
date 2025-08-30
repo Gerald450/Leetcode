@@ -10,6 +10,8 @@ class Solution:
             if ratings[i+1] < ratings[i]:
                 arr[i] = max(arr[i], arr[i+1] + 1)
 
+        #commit1
+
         return sum(arr)
 
 
