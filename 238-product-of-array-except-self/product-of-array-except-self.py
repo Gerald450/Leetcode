@@ -16,7 +16,8 @@ class Solution:
         for i in range(len(nums) - 2, -1, -1):
             post[i] = nums[i+1] * temp
             temp = post[i]
-           
+        
+        #commit
 
        
 
