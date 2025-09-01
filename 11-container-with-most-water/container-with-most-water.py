@@ -12,6 +12,7 @@ class Solution:
                 r -= 1
 
             area = max(area, min(height[l], height[r]) * (r-l))
+            #commit
 
         return area
             
