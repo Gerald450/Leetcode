@@ -1,7 +1,10 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        hashmap = collections.Counter(nums)
+        count, candidate = 0, None
 
-        for key, value in hashmap.items():
-            if value > len(nums) / 2:
-                return key
+        for n in nums:
+            if count == 0:
+                candidate = n
+            count += 1 if candidate == n else -1
+        
+        return candidate
