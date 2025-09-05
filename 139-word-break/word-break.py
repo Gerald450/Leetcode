@@ -5,11 +5,13 @@ class Solution:
 
         for i in range(len(s) - 1, -1, -1):
             for w in wordDict:
-                if i + len(w) <= len(s) and s[i: i + len(w)] == w:
-                    dp[i] = dp[i + len(w)]
+                n = len(w)
+                if i + n <= len(s) and s[i:i+n] == w:
+                    dp[i] = dp[i + n]
                 if dp[i]:
                     break
 
-                #committt
         return dp[0]
+        
+   
         
