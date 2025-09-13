@@ -13,6 +13,8 @@ class Solution:
             else:
                 if nums[i] > nums[i - 1] and nums[i] > nums[i + 1]:
                     return i
+
+            #commit
             
 
 
