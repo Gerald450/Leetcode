@@ -1,1 +1,1 @@
-<h2>find-peak-element Notes</h2><hr>[ Time taken: 2 hrs 59 m 23 s ]
+<h2>find-peak-element Notes</h2><hr>[ Time taken: 3 hrs 4 m 40 s ]
