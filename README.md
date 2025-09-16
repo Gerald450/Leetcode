@@ -19,6 +19,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
+| [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Gerald450/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 ## Heap (Priority Queue)
@@ -39,4 +40,20 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
