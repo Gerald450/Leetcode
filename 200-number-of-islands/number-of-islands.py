@@ -5,32 +5,32 @@ class Solution:
         seen = set()
 
 
-        def bfs(r, c):
-            q = collections.deque()
+        def dfs(r,c):
+            if grid[r][c] == '0' or (r,c) in seen:
+                return
+
             seen.add((r,c))
-            q.append((r,c))
 
-            while q:
-                directions = [[1,0], [0,1], [-1,0], [0,-1]]
-                row, col = q.popleft()
+            directions = [[1,0], [0,1], [-1,0], [0,-1]]
 
-                for dr, dc in directions:
-                    
-                    r, c = row + dr, col + dc
+            for direction in directions:
+                dr, dc = direction
+                row, col = r + dr, c + dc
+                
+                if ((row, col) not in seen and
+                    row in range(0, rows) and
+                    col in range(0, cols) and
+                    grid[row][col] == '1'):
 
-                    if (r in range(rows) and
-                        c in range(cols) and
-                        (r, c) not in seen and
-                        grid[r][c] == '1'):
-                        q.append((r,c))
-                        seen.add((r,c))
+                    dfs(row, col)
+                    seen.add((row, col))
+
 
 
         for r in range(rows):
             for c in range(cols):
-                if grid[r][c] == '1' and (r, c) not in seen:
-                    bfs(r, c)
+                if grid[r][c] == '1' and (r,c) not in seen:
                     islands += 1
+                    dfs(r, c)
 
         return islands
-        
