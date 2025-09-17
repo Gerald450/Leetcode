@@ -1,37 +1,33 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         adj = collections.defaultdict(list)
+        seen = set()
 
-        for p in prerequisites:
-            a, b = p
+        for pre in prerequisites:
+            a, b = pre
             adj[a].append(b)
+        print(adj[0])
 
-        visitCrs = set()
-
-        def dfs(crs):
-            if adj[crs] == []:
-                return True
-            if crs in visitCrs:
+        def dfs(num):
+            if num in seen:
                 return False
+            if adj[num] == []:
+                return True
 
-            visitCrs.add(crs)
-            for pre in adj[crs]:
+            seen.add(num)
+
+            for pre in adj[num]:
                 if not dfs(pre):
                     return False
-            visitCrs.remove(crs)
-            adj[crs] = []
+            seen.remove(num)
+            adj[num] = []
             return True
 
+        #commit
 
-        for p in range(numCourses):
-            if not dfs(p): return False
 
+        for i in range(numCourses):
+            if not dfs(i):
+                return False
         return True
-            
-
-        
-
-        
-
-
         
