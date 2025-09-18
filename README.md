@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -66,4 +67,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Gerald450/Leetcode/tree/master/0207-course-schedule) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
 <!---LeetCode Topics End-->
