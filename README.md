@@ -11,6 +11,7 @@
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Gerald450/Leetcode/tree/master/0006-zigzag-conversion) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -75,4 +76,12 @@
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
+## Stack
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
