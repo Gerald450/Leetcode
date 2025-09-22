@@ -6,11 +6,13 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 ## String
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Gerald450/Leetcode/tree/master/0006-zigzag-conversion) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 ## Backtracking
@@ -23,6 +25,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -80,6 +83,7 @@
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
 ## Stack
 |  |
@@ -97,4 +101,12 @@
 |  |
 | ------- |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
