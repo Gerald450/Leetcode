@@ -55,6 +55,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/Gerald450/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Gerald450/Leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -63,6 +64,7 @@
 | ------- |
 | [0100-same-tree](https://github.com/Gerald450/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Gerald450/Leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -129,11 +131,13 @@
 | ------- |
 | [0100-same-tree](https://github.com/Gerald450/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Gerald450/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
