@@ -81,6 +81,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
@@ -109,4 +110,12 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
