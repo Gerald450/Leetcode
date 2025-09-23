@@ -19,10 +19,12 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0039-combination-sum](https://github.com/Gerald450/Leetcode/tree/master/0039-combination-sum) |
 ## Array
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0039-combination-sum](https://github.com/Gerald450/Leetcode/tree/master/0039-combination-sum) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
