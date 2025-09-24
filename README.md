@@ -28,6 +28,7 @@
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
+| [0135-candy](https://github.com/Gerald450/Leetcode/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
@@ -145,4 +146,8 @@
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
+## Greedy
+|  |
+| ------- |
+| [0135-candy](https://github.com/Gerald450/Leetcode/tree/master/0135-candy) |
 <!---LeetCode Topics End-->
