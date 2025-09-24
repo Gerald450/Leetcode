@@ -1,14 +1,14 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        row = [1] * n
-
-        for i in range(m - 1):
-            newRow = [1] * n
-
-            for j in range(n - 2, -1, -1):
-                newRow[j] = newRow[j + 1] + row[j]
-
-            row = newRow
+        dp = [0] * n
+        dp[n - 1] = 1
         
-        return row[0]
+        for r in range(m - 1, -1, -1):
+            for c in range(n - 1, -1, -1):
+
+                if c + 1 < n:
+                    dp[c] += dp[c + 1]
+
+        return dp[0]
+                
         
