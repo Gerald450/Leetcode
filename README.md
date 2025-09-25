@@ -7,6 +7,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
@@ -35,6 +36,7 @@
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Gerald450/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -43,6 +45,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Gerald450/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 ## Binary Search
 |  |
@@ -128,6 +131,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 ## Trie
@@ -169,4 +173,20 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
