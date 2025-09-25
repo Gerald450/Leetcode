@@ -7,7 +7,8 @@ class Solution:
 
         for pre in prerequisites:
             a, b = pre
-            adj[b].append(a)
+            adj[a].append(b)
+            #0:1
 
         otp = []
         visiting, visited = set(), set()
@@ -27,10 +28,8 @@ class Solution:
             otp.append(course)
             return True
 
-
-
         for i in range(numCourses):
             if not dfs(i):
                 return []
 
-        return otp[::-1]
+        return otp
