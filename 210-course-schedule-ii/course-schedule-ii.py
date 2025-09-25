@@ -3,34 +3,34 @@ from typing import List
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        graph = collections.defaultdict(list)
-        for a, b in prerequisites:
-            graph[b].append(a)   # edge b → a
+        adj = collections.defaultdict(list)
 
-        visited = set()   # fully processed
-        path = set()      # current recursion path
-        order = []        # topological order
-        cycle = False
+        for pre in prerequisites:
+            a, b = pre
+            adj[b].append(a)
 
-        def dfs(node):
-            nonlocal cycle
-            if node in path:   # cycle detected
-                cycle = True
-                return
-            if node in visited:
-                return
+        otp = []
+        visiting, visited = set(), set()
+        def dfs(course):
+            if course in visiting:
+                return False
+            if course in visited:
+                return True
 
-            path.add(node)
-            for nei in graph[node]:
-                dfs(nei)
-            path.remove(node)
-            visited.add(node)
-            order.append(node)
+            visited.add(course)
+            visiting.add(course)
+
+            for nei in adj[course]:
+                if not dfs(nei):
+                    return False
+            visiting.remove(course)
+            otp.append(course)
+            return True
+
+
 
         for i in range(numCourses):
-            if i not in visited:
-                dfs(i)
-            if cycle:
-                return []   # cycle found → no valid ordering
+            if not dfs(i):
+                return []
 
-        return order[::-1]  # reverse to get correct order
+        return otp[::-1]
