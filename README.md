@@ -39,6 +39,7 @@
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0724-find-pivot-index](https://github.com/Gerald450/Leetcode/tree/master/0724-find-pivot-index) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0724-find-pivot-index](https://github.com/Gerald450/Leetcode/tree/master/0724-find-pivot-index) |
 ## Depth-First Search
 |  |
 | ------- |
