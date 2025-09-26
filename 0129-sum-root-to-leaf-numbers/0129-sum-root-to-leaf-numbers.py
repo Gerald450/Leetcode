@@ -25,6 +25,7 @@ class Solution:
             else:
                 dfs(node.right)
                 dfs(node.left)
+            
             otp.pop()
          
 
