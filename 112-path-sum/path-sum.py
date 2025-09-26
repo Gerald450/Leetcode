@@ -6,15 +6,37 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        if not root:
-            return False
+        otp = []
+        res = []
         
-        # If we're at a leaf, check if the sum matches
-        if not root.left and not root.right:
-            return targetSum == root.val
+        def dfs(node):
+            if not node:
+                return
+            
+            otp.append(node.val)
+
+            if not node.left and not node.right:
+                res.append(otp.copy())
+            else:
+                dfs(node.left)
+                dfs(node.right)
+            
+            otp.pop()
+
+        dfs(root)
+        for group in res:
+            if sum(group) == targetSum:
+                return True
+
+        return False
+            
+
+            
+
+
         
-        # Check left or right subtree with reduced targetSum
-        return (self.hasPathSum(root.left, targetSum - root.val) or
-                self.hasPathSum(root.right, targetSum - root.val))
+
+
+            
 
         
