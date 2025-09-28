@@ -130,6 +130,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 ## Two Pointers
 |  |
@@ -152,6 +153,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 ## Combinatorics
 |  |
@@ -201,4 +203,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
