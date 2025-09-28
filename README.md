@@ -44,6 +44,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0724-find-pivot-index](https://github.com/Gerald450/Leetcode/tree/master/0724-find-pivot-index) |
+| [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -127,6 +128,7 @@
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
+| [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
 ## Recursion
 |  |
 | ------- |
@@ -142,6 +144,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
 ## Trie
 |  |
 | ------- |
@@ -207,4 +210,8 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
 <!---LeetCode Topics End-->
