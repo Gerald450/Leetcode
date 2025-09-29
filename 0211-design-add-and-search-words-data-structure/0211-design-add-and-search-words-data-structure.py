@@ -19,16 +19,15 @@ class WordDictionary:
         curr.word = True
          
         
-
     def search(self, word: str) -> bool:
 
         def dfs(j, root):
             curr = root
 
-            for i in range(j, len(word)):
+            for i in range(j, len(word)): #O(n)
                 if word[i] == ".":
-                    for child in curr.children.values():
-                        if dfs(i + 1, child):
+                    for child in curr.children.values(): #O(26)
+                        if dfs(i + 1, child): #O(26^n)
                             return True
                     return False
                 else:
@@ -38,7 +37,7 @@ class WordDictionary:
             return curr.word
 
 
-        return dfs(0, self.root)
+        return dfs(0, self.root) 
         
 
 
