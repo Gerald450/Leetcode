@@ -78,6 +78,7 @@
 | [0210-course-schedule-ii](https://github.com/Gerald450/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -91,11 +92,13 @@
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Matrix
 |  |
 | ------- |
@@ -108,6 +111,7 @@
 | [0207-course-schedule](https://github.com/Gerald450/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Gerald450/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Topological Sort
 |  |
 | ------- |
