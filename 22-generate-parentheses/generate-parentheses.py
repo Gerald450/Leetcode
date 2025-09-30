@@ -10,7 +10,7 @@ class Solution:
             
             if openN == closedN == n:
                 otp.append("".join(stack))
-                return otp
+                return 
             
             if openN < n:
                 stack.append("(")
