@@ -43,6 +43,7 @@
 | [0354-russian-doll-envelopes](https://github.com/Gerald450/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Gerald450/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [0416-partition-equal-subset-sum](https://github.com/Gerald450/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0724-find-pivot-index](https://github.com/Gerald450/Leetcode/tree/master/0724-find-pivot-index) |
@@ -133,6 +134,7 @@
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
 | [0354-russian-doll-envelopes](https://github.com/Gerald450/Leetcode/tree/master/0354-russian-doll-envelopes) |
+| [0416-partition-equal-subset-sum](https://github.com/Gerald450/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 ## Stack
 |  |
 | ------- |
