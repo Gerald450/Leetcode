@@ -14,6 +14,7 @@
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Gerald450/Leetcode/tree/master/0006-zigzag-conversion) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Gerald450/Leetcode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -24,6 +25,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Gerald450/Leetcode/tree/master/0039-combination-sum) |
 ## Array
 |  |
@@ -128,6 +130,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
