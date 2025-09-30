@@ -14,7 +14,6 @@ class Solution:
                 nextDp.add(t + nums[i])
                 if target in nextDp:
                     return True
-            
             dp = nextDp
 
         
