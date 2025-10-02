@@ -154,6 +154,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Gerald450/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Gerald450/Leetcode/tree/master/0061-rotate-list) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 ## Sorting
@@ -232,6 +233,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Gerald450/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Gerald450/Leetcode/tree/master/0061-rotate-list) |
 ## Monotonic Stack
 |  |
