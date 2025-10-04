@@ -18,6 +18,7 @@
 | [0072-edit-distance](https://github.com/Gerald450/Leetcode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0392-is-subsequence](https://github.com/Gerald450/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
@@ -142,6 +143,7 @@
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
 | [0354-russian-doll-envelopes](https://github.com/Gerald450/Leetcode/tree/master/0354-russian-doll-envelopes) |
+| [0392-is-subsequence](https://github.com/Gerald450/Leetcode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Gerald450/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 ## Stack
 |  |
@@ -159,6 +161,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Gerald450/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Gerald450/Leetcode/tree/master/0061-rotate-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Gerald450/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0392-is-subsequence](https://github.com/Gerald450/Leetcode/tree/master/0392-is-subsequence) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/Gerald450/Leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 ## Sorting
 |  |
