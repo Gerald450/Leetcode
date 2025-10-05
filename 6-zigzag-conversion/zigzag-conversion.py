@@ -3,6 +3,7 @@ class Solution:
         if numRows == 1: return s
 
         res = ""
+        #commit
 
         for r in range(numRows):
             increment = 2 * (numRows - 1)
