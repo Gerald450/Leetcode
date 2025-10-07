@@ -66,6 +66,7 @@
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Gerald450/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0354-russian-doll-envelopes](https://github.com/Gerald450/Leetcode/tree/master/0354-russian-doll-envelopes) |
 ## Sliding Window
 |  |
@@ -198,6 +199,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0112-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Binary Tree
@@ -208,6 +210,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0112-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Greedy
@@ -251,4 +254,8 @@
 | ------- |
 | [0155-min-stack](https://github.com/Gerald450/Leetcode/tree/master/0155-min-stack) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 <!---LeetCode Topics End-->
