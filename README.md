@@ -148,6 +148,7 @@
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/Gerald450/Leetcode/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 | [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
 ## Recursion
@@ -248,5 +249,6 @@
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/Gerald450/Leetcode/tree/master/0155-min-stack) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
