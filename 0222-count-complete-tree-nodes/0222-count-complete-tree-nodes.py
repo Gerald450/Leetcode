@@ -4,26 +4,27 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
+
+        if not root:
+            return 0
+        
+        q = deque([root])
         count = 0
-        seen = set()
 
-        def dfs(node):
-            nonlocal count, seen
-            if not node:
-                return
-            if node in set():
-                return
-            
-            seen.add(node)
-            count += 1
+        while q:
 
-            dfs(node.left)
-            dfs(node.right)
-
-        dfs(root)
-
+            for _ in range(len(q)):
+                count += 1
+                node = q.popleft()
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
 
         return count
+
+       
         
