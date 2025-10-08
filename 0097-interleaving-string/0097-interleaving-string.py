@@ -9,7 +9,6 @@ class Solution:
 
         dp = [[False] * cols for r in range(rows)]
         dp[-1][-1] = True
-        print(dp)
 
 
         for r in range(rows - 1, -1, -1):
