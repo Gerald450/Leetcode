@@ -1,28 +1,36 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        nums3 = []
-        n1, n2 = 0, 0
- 
+        A, B = nums1, nums2
+        total = len(nums1) + len(nums2)
+        half = total // 2
 
-        #merge
-        while n1 < len(nums1) and n2 < len(nums2):
-            v1, v2 = nums1[n1], nums2[n2]
+        if len(nums2) < len(nums1):
+            A, B = B, A
 
-            if v1 < v2:
-                nums3.append(v1)
-                n1 += 1
+        l, r = 0, len(A) - 1
+
+        while True:
+            i = (l + r) // 2
+            j = half - i - 2
+
+            Aright = A[i + 1] if (i + 1) < len(A) else float('inf')
+            Aleft = A[i] if i >= 0 else float('-inf')
+            Bright = B[j + 1] if (j + 1) < len(B) else float('inf')
+            Bleft = B[j] if j >= 0 else float('-inf')
+
+
+            #correct partition
+            if Aleft <= Bright and Bleft <= Aright:
+                #odd
+                if total % 2 == 1:
+                    return min(Aright, Bright)
+                #even
+                else:
+                    return (max(Aleft, Bleft) + min(Aright, Bright)) / 2
+
+            elif Aleft > Bright:
+                r = i - 1
             else:
-                nums3.append(v2)
-                n2 += 1
-        
-        nums3.extend(nums1[n1:])
-        nums3.extend(nums2[n2:])
+                l = i + 1
 
 
-        n = len(nums3)
-
-        if n % 2 == 0:
-            idx = (n - 1) // 2
-            return (nums3[idx] + nums3[idx + 1]) / 2
-        else:
-            return nums3[(n - 1) // 2]
