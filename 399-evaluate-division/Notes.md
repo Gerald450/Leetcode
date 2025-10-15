@@ -1,1 +1,1 @@
-<h2>evaluate-division Notes</h2><hr>[ Time taken: 56 m 57 s ]
+<h2>evaluate-division Notes</h2><hr>[ Time taken: 2 hrs 17 m 9 s ]
