@@ -64,6 +64,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Gerald450/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 ## Binary Search
@@ -241,6 +242,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Gerald450/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
@@ -260,6 +262,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Gerald450/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/Gerald450/Leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Gerald450/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 ## Monotonic Stack
@@ -275,4 +278,8 @@
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
