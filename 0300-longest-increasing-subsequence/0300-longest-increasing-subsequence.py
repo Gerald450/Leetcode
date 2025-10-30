@@ -1,21 +1,18 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        maxLen = 0
+        dp = [1] * len(nums)
 
-        def dfs(i, curr):
-            nonlocal maxLen
-            if i == len(nums):
-                maxLen = max(maxLen, len(curr))
-                return
+        for i in range(len(nums) - 1, -1, -1):
+            for r in range(i + 1, len(nums)):
+                if nums[i] < nums[r]:
+                    dp[i] = max(dp[i], 1 + dp[r])
 
-            dfs(i + 1, curr)
+        return max(dp)
+        
+        
 
-           
-            if not curr or nums[i] > curr[-1]:
-                curr.append(nums[i])
-                dfs(i + 1, curr)
-                curr.pop()
+                
 
 
-        dfs(0, [])
-        return maxLen
+
+        
