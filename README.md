@@ -7,6 +7,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gerald450/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0076-minimum-window-substring](https://github.com/Gerald450/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -18,6 +19,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Gerald450/Leetcode/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/Gerald450/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0097-interleaving-string](https://github.com/Gerald450/Leetcode/tree/master/0097-interleaving-string) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -88,6 +90,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gerald450/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Gerald450/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 ## Prefix Sum
 |  |
