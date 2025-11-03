@@ -3,15 +3,11 @@ class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if t == "": return ""
 
-
-
         l = 0
         res, window =[-1, -1], float('inf')
         tDic = Counter(t)
         sDic = Counter()
         have, need = 0, len(tDic)
-
-
 
         for r in range(len(s)):
             c = s[r]
