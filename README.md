@@ -41,6 +41,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/Gerald450/Leetcode/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Gerald450/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Gerald450/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -138,6 +139,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Gerald450/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Gerald450/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -302,4 +304,8 @@
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Gerald450/Leetcode/tree/master/0274-h-index) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Gerald450/Leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
