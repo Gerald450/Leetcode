@@ -164,6 +164,7 @@
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/Gerald450/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Gerald450/Leetcode/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/Gerald450/Leetcode/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
@@ -212,12 +213,14 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Gerald450/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/Gerald450/Leetcode/tree/master/0070-climbing-stairs) |
 ## Combinatorics
 |  |
 | ------- |
