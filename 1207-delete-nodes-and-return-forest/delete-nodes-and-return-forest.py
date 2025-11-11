@@ -4,30 +4,47 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-import collections
+
+from collections import deque
 
 class Solution:
     def delNodes(self, root: Optional[TreeNode], to_delete: List[int]) -> List[TreeNode]:
-        to_delete_set = set(to_delete)
-        forest = []
+        '''
+        input: binary tree
+        output: forest of disjoint trees(just roots in a list)
 
-        def dfs(node, is_root):
+        edge cases: not root
+
+        plan:
+
+        traverse tree: bfs
+        if next node is in to_delete, make pointer point to None
+        before that store node in temp, add children as roots to the list
+
+        '''
+
+        to_delete = set(to_delete)
+        otp = set([root])
+
+        def dfs(node):
             if not node:
                 return None
 
-            # check if this node should be deleted
-            deleted = node.val in to_delete_set
+            res = node
+            if node.val in to_delete:
+                res = None
+                otp.discard(node)
+                if node.left: otp.add(node.left)
+                if node.right: otp.add(node.right)
+            
+            node.right = dfs(node.right)
+            node.left = dfs(node.left)
 
-            # if it's a root and not deleted, add it to forest
-            if is_root and not deleted:
-                forest.append(node)
+            return res
+        
+        dfs(root)
 
-            # recursively check children
-            node.left = dfs(node.left, deleted)
-            node.right = dfs(node.right, deleted)
+        return list(otp)
 
-            # return None if deleted, else keep the node
-            return None if deleted else node
 
-        dfs(root, True)
-        return forest
+        
