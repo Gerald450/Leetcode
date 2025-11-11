@@ -33,7 +33,6 @@ class Solution:
         visiting = set()
 
         def bfs(start, target):
-            
             if start not in adj or target not in adj:
                 return -1
             
