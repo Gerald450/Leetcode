@@ -1,45 +1,63 @@
+from collections import defaultdict
+from collections import deque
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
 
-        adj = collections.defaultdict(list)
+        '''
+        input: eqns, values, queries
+        output: answers to queries
+
+        edge: cant find ans, division by self, undefined letter
+
+        plan:
+        make an adj dictionary
+        a -> b => 2
+        b -> a => 1/2
+        adj[a] = [b, 2]
+        adj[b] = [a, 1/2]
+
+        need a set to avoid cycles
+        loop in qeuries: pass two values in bfs as start and target
+        traverse through the adj graph till find target
+        base case: if start in set(), return 
+
+        '''
+        adj = defaultdict(list)
         otp = []
 
-        for idx, eq in enumerate(equations):
-            a, b = eq
-            adj[a].append([b, values[idx]])
-            adj[b].append([a, 1/values[idx]])
-        
-        
+        for i in range(len(equations)):
+            a, b = equations[i]
+            adj[a].append([b, values[i]])
+            adj[b].append([a, 1 / values[i]])
 
-        def bfs(curr, target):
-            if target not in adj or curr not in adj:
+        visiting = set()
+
+        def bfs(start, target):
+            
+            if start not in adj or target not in adj:
                 return -1
-
-            q = collections.deque()
-            visited = set()
-            q.append([curr, 1])
-            visited.add(curr)
-
+            
+            q = deque([(start, 1)])
+            visiting = set([start])
             while q:
-                n, w = q.popleft()
+                node, weight = q.popleft()
 
-                if n == target:
-                    return w
-                for nei in adj[n]:
-                    node, weight = nei
-                    
-                    if node not in visited:
-                        q.append([node, w * weight])
-                        visited.add(node)
-
+                if node == target:
+                    return weight
+                
+                for nei in adj[node]:
+                    # a : [[b, 2], [c, 4]]
+                    if nei[0] not in visiting:
+                        q.append((nei[0], weight * nei[1]))
+                        visiting.add(nei[0])
+                
             return -1
-
-
-        for q in queries:
-            otp.append(bfs(q[0], q[1]))
         
+
+        for start, target in queries:
+            otp.append(bfs(start, target))
+
         return otp
 
 
-
-        
+      
