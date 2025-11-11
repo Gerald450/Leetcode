@@ -9,43 +9,48 @@ class Solution:
         edge cases: same freq
 
         plan:
-        make a freq dict
-        make a maxheap -> [(-freq, num)]
-        pop k times, insert to otp
-        return otp
+        make a freqDict
+        bucket sort: -> arr of arr
+            arr of length nums
+            put num at arr[value]
 
         '''
 
-        freqDict = Counter(nums) 
-
-        maxHeap = []
-
-        for key, value in freqDict.items(): #time -> O(n)
-            maxHeap.append((-value, key))
-
-        heapq.heapify(maxHeap)
+        freqDict = Counter(nums)
         otp = []
 
-        for i in range(k): #time -> O(k)
-            _, key = heapq.heappop(maxHeap) #O(logn)
-            otp.append(key)
+        bucket = [[] for _ in range(len(nums) + 1)]
 
+        for key, value in freqDict.items():
+            bucket[value].append(key)
+        
+        #[[], [], [3], [], [1, 2]]
+
+        for i in range(len(bucket) - 1, -1, -1):
+            if bucket[i]:
+                 for num in bucket[i]:
+                    otp.append(num)
+                    if len(otp) == k:
+                        return otp
         return otp
 
         '''
         freqDict = {
-            1: 4,
-            2: 4,
-            3: 2
+            1:4,
+            2:4,
+            3:2
         }
 
-        maxHeap = [(-4, 2), (-2, 3)]
-        heap = (-4, 2)
+        bucket = [[], [], [3], [], [1, 2], [], [], [], [], [], []]
 
-        i = 2 -> 2
-        otp = [1, 2]
+
+
+
 
         '''
+
+
+    
 
 
         
