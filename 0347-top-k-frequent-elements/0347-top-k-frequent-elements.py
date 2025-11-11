@@ -16,18 +16,18 @@ class Solution:
 
         '''
 
-        freqDict = Counter(nums)
+        freqDict = Counter(nums) 
 
         maxHeap = []
 
-        for key, value in freqDict.items():
+        for key, value in freqDict.items(): #time -> O(n)
             maxHeap.append((-value, key))
 
         heapq.heapify(maxHeap)
         otp = []
 
-        for i in range(k):
-            _, key = heapq.heappop(maxHeap)
+        for i in range(k): #time -> O(k)
+            _, key = heapq.heappop(maxHeap) #O(logn)
             otp.append(key)
 
         return otp
@@ -44,8 +44,6 @@ class Solution:
 
         i = 2 -> 2
         otp = [1, 2]
-
-
 
         '''
 
