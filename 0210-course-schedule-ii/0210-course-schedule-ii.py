@@ -50,18 +50,16 @@ class Solution:
             
             
             visiting.add(course)
-            
 
             for nei in adj[course]:
                 if not dfs(nei):
                     return False
-
+            
             visiting.remove(course)
             visited.add(course)
             otp.append(course)
             return True
 
-            
 
         for i in range(numCourses):
             if not dfs(i):
