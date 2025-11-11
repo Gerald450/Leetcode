@@ -12,15 +12,33 @@ class Solution:
         return max(dp)
 
         '''
-        dp = [1] * len(nums)
+        dp = []
 
-        for c in range(len(nums) - 1, -1, -1):
+        def binary_search(num, arr):
+            l, r = 0, len(arr) - 1
 
-            for i in range(c + 1, len(nums)):
-                if nums[i] > nums[c]:
-                    dp[c] = max(dp[c], 1 + dp[i])
-            
-        return max(dp)
+            while l <= r:
+                m = (l + r) // 2
+                if arr[m] < num:
+                    l = m + 1
+                elif arr[m] > num:
+                    r = m - 1
+                else:
+                    return m
+
+            return l
+
+        for num in nums:
+            length = len(dp)
+
+            pos = binary_search(num, dp)
+
+            if pos == length:
+                dp.append(num)
+            else:
+                dp[pos] = num
+
+        return len(dp)
         
         '''
         [10,9,2,5,3,7,101,18]
@@ -33,9 +51,6 @@ class Solution:
             i = 6 -> 101
             101 > 3
             
-
-
-
 
         '''
 
