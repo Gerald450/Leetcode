@@ -17,9 +17,8 @@ class Solution:
             call dfs(course): if false return []
 
         dfs => {
-            base case: if not in adj: return True
+            base case: if in visitesd: return True
             if in set: return False
-            if not adj[course]: true
 
             add to set
 
