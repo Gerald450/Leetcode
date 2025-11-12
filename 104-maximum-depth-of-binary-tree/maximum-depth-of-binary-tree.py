@@ -9,14 +9,10 @@
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
        
+        if not root:
+            return 0
 
-        def dfs(depth, node):
-            if not node:
-                return depth
-
-            return max(dfs(depth + 1, node.right), dfs(depth + 1, node.left))
-
-        return dfs(0, root)
+        return max(1 + self.maxDepth(root.right), 1 + self.maxDepth(root.left))
      
 
 
