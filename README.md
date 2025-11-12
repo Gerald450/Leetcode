@@ -192,6 +192,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
+| [0060-permutation-sequence](https://github.com/Gerald450/Leetcode/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 ## Two Pointers
 |  |
@@ -226,6 +227,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gerald450/Leetcode/tree/master/0002-add-two-numbers) |
+| [0060-permutation-sequence](https://github.com/Gerald450/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Gerald450/Leetcode/tree/master/0070-climbing-stairs) |
 ## Combinatorics
