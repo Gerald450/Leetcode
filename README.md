@@ -43,6 +43,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Gerald450/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/Gerald450/Leetcode/tree/master/0039-combination-sum) |
+| [0045-jump-game-ii](https://github.com/Gerald450/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Gerald450/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
@@ -168,6 +169,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/Gerald450/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
@@ -264,6 +266,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Gerald450/Leetcode/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Gerald450/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/Gerald450/Leetcode/tree/master/0135-candy) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Gerald450/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
