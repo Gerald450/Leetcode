@@ -24,7 +24,24 @@ class Solution:
         
         
         backtrack(0, '')
-        #commit 3
-        #commit 4
         return res
+
+        '''
+        "23"
+
+        res = []
+
+        backtrack(0, '') => {
+            c = a -> c
+            backtrack(1, 'a') => {
+                c = e -> f
+                backtrack(2, 'ae') => {
+                    res = ['ad', 'ae']
+                }
+
+            }
+        }
+
+
+        '''
 
