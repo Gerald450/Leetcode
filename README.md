@@ -113,6 +113,7 @@
 | [0101-symmetric-tree](https://github.com/Gerald450/Leetcode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0112-path-sum) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Gerald450/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/Gerald450/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
@@ -190,6 +191,7 @@
 ## Stack
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Gerald450/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0155-min-stack](https://github.com/Gerald450/Leetcode/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Gerald450/Leetcode/tree/master/0394-decode-string) |
 | [0883-car-fleet](https://github.com/Gerald450/Leetcode/tree/master/0883-car-fleet) |
@@ -248,6 +250,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Gerald450/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0112-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0112-path-sum) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Gerald450/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -260,6 +263,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Gerald450/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0112-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0112-path-sum) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Gerald450/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
@@ -305,6 +309,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/Gerald450/Leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Gerald450/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Gerald450/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
