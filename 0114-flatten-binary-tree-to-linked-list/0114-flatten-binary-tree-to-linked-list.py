@@ -21,21 +21,22 @@ class Solution:
 
         """
 
-        prev =None
+        
 
         def dfs(node):
-            nonlocal prev
             if not node:
-                return
+                return None
 
-            # traverse in reverse preorder: right -> left -> node
-            dfs(node.right)
-            dfs(node.left)
+            leftTail = dfs(node.left)
+            rightTail = dfs(node.right)
 
-            # rewire pointers
-            node.right = prev
-            node.left = None
-            prev = node
+            if leftTail:
+                leftTail.right = node.right
+                node.right = node.left
+                node.left = None
+
+            last = rightTail or leftTail or node
+            return last
 
 
         dfs(root)
