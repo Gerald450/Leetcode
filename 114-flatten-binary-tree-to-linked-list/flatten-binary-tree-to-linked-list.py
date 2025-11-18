@@ -38,8 +38,32 @@ class Solution:
             last = rightTail or leftTail or node
             return last
 
-
         dfs(root)
+
+        '''
+        dfs(1) => {
+            leftTail = dfs(2) => {
+                leftTail = dfs(3) => {
+                    leftTail = dfs(none) =>{
+                        None
+                    }
+                    leftTail == None
+                    rightTail = None
+                    last = 3
+                    3
+                }
+                leftTail == 3
+                rightTail = dfs(4) => {
+                    rightTail = None
+                }
+                rightTail == 4
+
+            }
+            leftTail == 4
+        }
+
+
+        '''
 
 
         
