@@ -11,6 +11,8 @@ class Solution:
             if num is less than curr num, then get max(dp[curr], 1 + dp[i])
         return max(dp)
 
+        yeah
+
         '''
         dp = []
 
