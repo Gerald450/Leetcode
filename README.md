@@ -10,6 +10,7 @@
 | [0076-minimum-window-substring](https://github.com/Gerald450/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/Gerald450/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
+| [0169-majority-element](https://github.com/Gerald450/Leetcode/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Gerald450/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -57,6 +58,7 @@
 | [0139-word-break](https://github.com/Gerald450/Leetcode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Gerald450/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Gerald450/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Gerald450/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Gerald450/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Gerald450/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gerald450/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -216,6 +218,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Gerald450/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gerald450/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/Gerald450/Leetcode/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -290,6 +293,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Gerald450/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/Gerald450/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Gerald450/Leetcode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/Gerald450/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gerald450/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
@@ -299,6 +303,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Gerald450/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Gerald450/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
