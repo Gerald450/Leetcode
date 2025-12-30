@@ -22,6 +22,7 @@
 | [0006-zigzag-conversion](https://github.com/Gerald450/Leetcode/tree/master/0006-zigzag-conversion) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gerald450/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Gerald450/Leetcode/tree/master/0022-generate-parentheses) |
+| [0058-length-of-last-word](https://github.com/Gerald450/Leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/Gerald450/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Gerald450/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0097-interleaving-string](https://github.com/Gerald450/Leetcode/tree/master/0097-interleaving-string) |
