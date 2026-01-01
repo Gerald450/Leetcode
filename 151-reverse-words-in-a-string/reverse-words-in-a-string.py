@@ -1,20 +1,17 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        s = s.split(' ')
+        res = s.split()
 
-        l, r = 0, len(s) - 1
+        otp = ''
 
-        while l < r:
-            
-            s[l], s[r] = s[r], s[l]
-            l += 1
-            r -= 1
+        for idx, word in enumerate(res):
+            if idx == 0:
+                otp = word
+            else:
+                otp = word + " " + otp
 
-        s = ' '.join(s)
+        return otp
 
 
-        return ' '.join(s.split())
-
-        
 
        
