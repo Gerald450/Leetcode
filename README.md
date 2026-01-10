@@ -52,6 +52,7 @@
 | [0054-spiral-matrix](https://github.com/Gerald450/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Gerald450/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Gerald450/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/Gerald450/Leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/Gerald450/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0120-triangle](https://github.com/Gerald450/Leetcode/tree/master/0120-triangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Gerald450/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -247,6 +248,7 @@
 | [0009-palindrome-number](https://github.com/Gerald450/Leetcode/tree/master/0009-palindrome-number) |
 | [0060-permutation-sequence](https://github.com/Gerald450/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Gerald450/Leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/Gerald450/Leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Gerald450/Leetcode/tree/master/0070-climbing-stairs) |
 ## Combinatorics
 |  |
