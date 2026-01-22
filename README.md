@@ -128,6 +128,7 @@
 | [0211-design-add-and-search-words-data-structure](https://github.com/Gerald450/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
@@ -145,6 +146,7 @@
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/Gerald450/Leetcode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/Gerald450/Leetcode/tree/master/0399-evaluate-division) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Gerald450/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Union Find
 |  |
@@ -266,6 +268,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Binary Tree
 |  |
@@ -279,6 +282,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gerald450/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/Gerald450/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Gerald450/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Gerald450/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Greedy
 |  |
