@@ -1,5 +1,5 @@
 class Solution:
-    def reverseBits(self, n: int) -> int:
+    def reverseBits(self, n: int) -> int: 
         if n == 0:
             return 0
 
