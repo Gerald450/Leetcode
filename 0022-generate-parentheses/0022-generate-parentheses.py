@@ -21,5 +21,6 @@ class Solution:
                 stack.append(")")
                 backtrack(openN,closedN+1)
                 stack.pop()
+        
         backtrack(0,0)
         return otp
