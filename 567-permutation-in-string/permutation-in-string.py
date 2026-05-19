@@ -32,7 +32,10 @@ class Solution:
                     return True
                 else:
                     hashmap2[s2[l]] -= 1
+                    if hashmap2[s2[l]] == 0:
+                        del hashmap2[s2[l]]
                     l += 1
+                    
                 
 
         return False
@@ -52,7 +55,11 @@ class Solution:
         hashmap2 = {i:1, d: 1}
         ...
         hashmap2= {b: 1, a: 1}
+        
 
+        let len(s1) = n, len(s2)= m
+        runtime: O(n + m)
+        space: O(min(n,m))
 
         '''
     
