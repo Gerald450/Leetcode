@@ -32,21 +32,17 @@ class Solution:
             incoming = count(dir)
             #remove trailing \t's
             dir = dir.strip('\t')
-            if incoming > curr_level:
-                stack.append(dir)
-                if '.' in dir:
-                    length = len(''.join(stack)) + len(stack) - 1
-                    maxlength = max(maxlength, length)
-            else:
+            if incoming <= curr_level:
                 pops = len(stack) - incoming
                 for _ in range(pops):
                     stack.pop()
-                stack.append(dir)
-                if '.' in dir:
-                    length = len(''.join(stack)) + len(stack) - 1
-                    maxlength = max(maxlength, length)
+            
+            stack.append(dir)
+            if '.' in dir:
+                length = len(''.join(stack)) + len(stack) - 1
+                maxlength = max(maxlength, length)
+            
             curr_level = incoming
-
             
 
         return maxlength
