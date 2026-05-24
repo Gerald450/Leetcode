@@ -11,16 +11,12 @@ class Solution:
         create a 2d grid with rows length of text1 + 1, and columns length of text2 + 2
         extra row and column are for edge comparisons and will be initialised to zeros
         if two letters match, update grid to 1+ number in diagonal
-        if they are not, take the minimum of grid bottom and one to the right
+        if they are not, take the max of grid bottom and one to the right
         return grid at top corner
         '''
 
         rows, cols = len(text1) + 1, len(text2) + 1
-        '''
-        [[3,4,5,5,2]
-        [0,0,0,0,0]]
-
-        '''
+    
         dp = [[0 for _ in range(cols)] for _ in range(rows)] 
 
 
@@ -31,7 +27,6 @@ class Solution:
                     dp[i][j] = 1 + dp[i + 1][j + 1]
                 else:
                     dp[i][j] = max(dp[i + 1][j], dp[i][j + 1])
-
 
 
         return dp[0][0]
@@ -55,5 +50,7 @@ class Solution:
         i = 1
         text1[1] = b
         
+        runtime: O(nm)
+        space: O(nm)
         '''
         
