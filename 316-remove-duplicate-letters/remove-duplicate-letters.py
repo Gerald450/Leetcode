@@ -27,12 +27,13 @@ class Solution:
        
      
         for idx, letter in enumerate(s):
-            
-            while stack and stack[-1][1] >= letter and idx < greatest_idx[stack[-1][1]] and letter not in in_stack:
+            if letter in in_stack:
+                continue
+
+            while stack and stack[-1][1] > letter and idx < greatest_idx[stack[-1][1]]:
                 in_stack.remove(stack[-1][1])
                 stack.pop()
                 
-
             if letter not in in_stack:
                 stack.append((idx, letter))
                 in_stack.add(letter)
@@ -66,6 +67,8 @@ class Solution:
         b > a, 0 < 3
         stack = [(2, a),(3, b), (4, c)]
 
+        runtime: O(n)
+        space:O(n)
         '''
 
 
