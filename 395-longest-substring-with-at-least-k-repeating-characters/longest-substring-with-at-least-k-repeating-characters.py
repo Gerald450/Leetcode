@@ -51,6 +51,11 @@ class Solution:
                 }
             }
         }
+        ....
+        s= bb
+        max = 2
+        return 2
 
-
+        time: O(n^2)
+        space: O(n), recursion stack and freq_hashmap
         '''
