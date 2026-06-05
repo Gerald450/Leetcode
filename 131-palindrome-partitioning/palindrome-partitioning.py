@@ -52,7 +52,12 @@ class Solution:
         word = s[0:1] = a
         True
         backtrack(1)
-        end: 1 -> 
+        end: 1 -> 3
+        ....
+        output = [['a','a','b], ['aa', 'b']]
+
+        runtime: O(n * 2^n)
+        extra space: O(n)
 
 
         '''
