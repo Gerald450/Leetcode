@@ -28,6 +28,7 @@ class Solution:
         def backtrack(start):
             if start == len(s):
                 output.append(path[:])
+                return
 
             for end in range(start, len(s)):
                 word =  s[start: end + 1]
