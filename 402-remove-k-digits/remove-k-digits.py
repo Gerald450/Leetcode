@@ -36,20 +36,9 @@ class Solution:
 
         output = output.lstrip('0') or '0'
 
-      
-
-        
-
-
 
         return output
 
-        '''
-        112, k = 1
-        d
-        stack = [1,]
-
-        '''
 
         '''
         "1432219", k = 3
@@ -57,6 +46,9 @@ class Solution:
         stack = ['1', 2, 1, 9]
         pops = 3
         '1219'
+
+        runtime: O(n)
+        space: O(n)
         '''
 
 
