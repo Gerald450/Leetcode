@@ -15,23 +15,27 @@ class Solution:
         increment count
         '''
 
-        stack = []
+        if not intervals:
+            return 0
+
         intervals.sort(key=lambda x: (x[0], x[1]))
         count = 0
-    #[1, 7] [2, 5]
-        for interval in intervals:
-            start, end = interval
-            if stack and stack[-1][1] > start:
-                count += 1
-                if stack[-1][1] > end:
-                    stack.pop()
-                    stack.append(interval)
-            else:
-                stack.append(interval)
+        prev_end = intervals[0][1]
 
+        for interval in intervals[1:]:
+            start, end = interval
+            if prev_end > start:
+                count += 1
+                if prev_end > end:
+                    prev_end = end
+            else:
+                prev_end = end
 
         return count
 
-
+    '''
+    runtime:O(nlogn)
+    space:O(1)
+    '''
 
         
