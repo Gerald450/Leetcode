@@ -9,10 +9,11 @@ class Solution:
         plan:
         sort by first in ascending, if equal sort by second in ascending
         [[1,2] ,[1,3], [2,4],[3,4]]
-        use stack
+        store prev_end
         compare last of prev to first of curr
-        if it's greater then that's an overlapp, dont add to stack
+        if it's greater then that's an overlapp
         increment count
+        keep the interval that ends early
         '''
 
         if not intervals:
