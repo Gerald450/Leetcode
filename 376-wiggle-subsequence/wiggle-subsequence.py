@@ -37,6 +37,6 @@ class Solution:
         count = 7
 
         time: O(n)
-        space: O(n)
+        space: O(1)
         '''
         
