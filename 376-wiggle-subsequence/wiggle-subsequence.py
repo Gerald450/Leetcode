@@ -13,28 +13,18 @@ class Solution:
         loop through incrementing count if it's wiggle
 
         '''
-        if len(nums) == 1:
-            return 1
+        if len(nums) == 0:
+            return 0
 
         # dp = [nums[i - 1] - nums[i] for i in range(1, len(nums)) if (nums[i - 1] - nums[i]) != 0]
-        last_s = None
+        last_s = 0
         count = 1
         for i in range(1, len(nums)):
             diff = nums[i - 1] - nums[i]
-            if last_s is not None:
-                if last_s == '+' and diff < 0:
-                    count += 1
-                    last_s = '-'
-                elif last_s == '-' and diff > 0:
-                    count += 1
-                    last_s = '+'
-            else:
-                if diff > 0:
-                    last_s = '+'
-                    count += 1
-                elif diff < 0:
-                    last_s = '-'
-                    count += 1
+            if (diff > 0 and last_s <= 0) or \
+            (diff < 0 and last_s >= 0):
+                count += 1
+                last_s = diff
 
 
         return count
