@@ -16,17 +16,25 @@ class Solution:
         if len(nums) == 1:
             return 1
 
-        dp = [nums[i - 1] - nums[i] for i in range(1, len(nums)) if (nums[i - 1] - nums[i]) != 0]
-        if not len(dp):
-            return 1
-        
-        count = 2
-
-        for i in range(1, len(dp)):
-            #wiggle
-            if (dp[i - 1] > 0 and dp[i] < 0) or (dp[i - 1] < 0 and dp[i] > 0):
-                count += 1
-
+        # dp = [nums[i - 1] - nums[i] for i in range(1, len(nums)) if (nums[i - 1] - nums[i]) != 0]
+        last_s = None
+        count = 1
+        for i in range(1, len(nums)):
+            diff = nums[i - 1] - nums[i]
+            if last_s is not None:
+                if last_s == '+' and diff < 0:
+                    count += 1
+                    last_s = '-'
+                elif last_s == '-' and diff > 0:
+                    count += 1
+                    last_s = '+'
+            else:
+                if diff > 0:
+                    last_s = '+'
+                    count += 1
+                elif diff < 0:
+                    last_s = '-'
+                    count += 1
 
 
         return count
