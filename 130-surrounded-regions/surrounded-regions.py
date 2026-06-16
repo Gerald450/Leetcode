@@ -3,38 +3,65 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        row, col = len(board), len(board[0])
+        '''
+        input: grid
+        output: grid
 
-        def capture(r, c):
-            if (r < 0 or c < 0 or r >= row or c >= col or board[r][c] != 'O'):
+        edge:o on edge, no os, empty grid, grid len is 1
+
+        plan:
+        capture unsurrounded regions and label them
+        change os to xs
+        unlabel unsarrounded regions
+
+        '''
+
+
+        rows, cols = len(board), len(board[0])
+
+        def dfs(row, col):
+            if (row < 0 or row >= rows) or (col < 0 or col >= cols) or board[row][col] != "O":
                 return
             
-            board[r][c] = 'T'
+            board[row][col] = 'T'
 
-            capture(r + 1,c)
-            capture(r - 1, c)
-            capture(r, c + 1)
-            capture(r, c - 1)
-
-
-        #capture unsorrounded regions (o -> t)
-        for r in range(row):
-            for c in range(col):
-                if (board[r][c] =='O' and r in [0, row - 1] or c in [0, col - 1]):
-                    capture(r, c)
-
-        #capture sourrounded regions (o -> x)
-        for r in range(row):
-            for c in range(col):
-                if board[r][c] == 'O':
-                    board[r][c] = 'X'
+            dfs(row - 1, col)
+            dfs(row + 1, col)
+            dfs(row, col + 1)
+            dfs(row, col - 1)
+            
 
 
-        #uncapture sorrounded regions (t -> o)
-        for r in range(row):
-            for c in range(col):
-                if board[r][c] == 'T':
-                    board[r][c] = 'O' 
+        #capture unsorrounded
+        for row in range(rows):
+            for col in range(cols):
+                if row in [0, rows - 1] or col in [0, cols - 1] and board[row][col] == "O":
+                    dfs(row, col)
+
+        #change os to xs
+        for row in range(rows):
+            for col in range(cols):
+                if board[row][col] == 'O':
+                    board[row][col] = 'X'
+        
+        #uncapture
+        for row in range(rows):
+            for col in range(cols):
+                if board[row][col] == 'T':
+                    board[row][col] = 'O'
+
+
+        '''
+        [
+  ["X","X","X","X"],
+  ["X","O","O","X"],
+  ["X","X","O","X"],
+  ["X","O","X","X"]
+]
+
+        time: O(nm)
+        space: O(n) recursion depth
+        '''
 
         
 
