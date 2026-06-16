@@ -35,7 +35,7 @@ class Solution:
         #capture unsorrounded
         for row in range(rows):
             for col in range(cols):
-                if row in [0, rows - 1] or col in [0, cols - 1] and board[row][col] == "O":
+                if (row in [0, rows - 1] or col in [0, cols - 1]) and board[row][col] == "O":
                     dfs(row, col)
 
         #change os to xs
@@ -60,7 +60,7 @@ class Solution:
 ]
 
         time: O(nm)
-        space: O(n) recursion depth
+        space: O(nm) recursion depth
         '''
 
         
