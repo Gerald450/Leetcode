@@ -1,68 +1,76 @@
-from collections import deque, defaultdict
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         '''
-        input: numCourses -> int, prerequisites -> arr of arr
+        input: numCourses, array of arrays
         output: boolean
 
-        edge cases: cycle [[1,0], [0,1]]
+        edge: circle
 
         plan:
-        make an adj graph: adj[course] = [pre1, pre2.....]
-        loop in range numCourses
-        dfs(course) through adj
-        use set to detect cycles 
-        base case: if course in set: return False
-        at the end return True
+        make a hashmap with key num and value array of prerequisites
+        loop through in range numCourses
+        call dfs on every num, if it returns false quickly return false
 
+        dfs(
+            base case: if value is empty, return true
+            if num in seen, false
+
+            add to set
+
+            loop through values of passed key
+            if dfs returns false return false
+
+            remove from set
+            update that key to empty values, for later ones
+            return True
+        )
         '''
-        adj = defaultdict(list)
 
-        for a, b in prerequisites:
-            adj[a].append(b)
+        from collections import defaultdict
 
-        visiting = set()
+        hashmap = defaultdict(list)
+        seen = set()
+
+        for pre in prerequisites:
+            a, b = pre
+            hashmap[a].append(b)
         
-        def dfs(course):
-            if course in visiting:
+        def dfs(num):
+            if not hashmap[num]:
+                return True
+            if num in seen:
                 return False
-            if course not in adj:
-                return True
-            if not adj[course]:
-                return True
+            
+            seen.add(num)
 
-            visiting.add(course)
-
-            for nei in adj[course]:
-                if not dfs(nei):
+            for val in hashmap[num]:
+                if not dfs(val):
                     return False
             
-            visiting.remove(course)
-            adj[course] = []
+            seen.remove(num)
+            hashmap[num] = []
             return True
 
 
-
-        for i in range(numCourses):
-            if not dfs(i):
+        for num in range(numCourses):
+            if not dfs(num):
                 return False
 
         return True
 
-        '''
-        numCourses = 2, pre = [[1,0]]
 
-        adj = {
-            1: 0
+        '''
+        hashmap = {
+            0:1,
+            1:0
         }
+        seen = {0}
+        false
 
-        visiting = {1}
-
-        i = 1 -> 2
-        dfs(1)
-        adj[1] = 0
-            dfs(0)
-            
-
+        v: numCourses
+        e: len(prerequisites)
+        runtime: O(V + E)
+        space: O(V + E)
         '''
 
+        
