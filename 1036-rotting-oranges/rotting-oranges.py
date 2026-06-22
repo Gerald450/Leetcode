@@ -22,14 +22,12 @@ class Solution:
         rows, cols = len(grid), len(grid[0])
 
         q = deque()
-        visited = set()
         minutes = -1
 
 
         for row in range(rows):
             for col in range(cols):
                 if grid[row][col] == 2:
-                    visited.add((row,col))
                     q.append((row, col)) #not sure
 
 
@@ -43,11 +41,9 @@ class Solution:
 
                     if r in range(0, rows) and \
                         c in range(0, cols) and \
-                        (r,c) not in visited and \
-                        grid[r][c] != 0:
+                        grid[r][c] == 1:
                         grid[r][c] = 2
                         q.append((r, c))
-                        visited.add((r, c))
 
             minutes += 1
         #is there more fresh fruit?
@@ -64,4 +60,8 @@ class Solution:
         [[1,0,1],
          [0,2,0],
          [1,0,1]]
+
+
+         runtime: O(nm)
+         space: O(nm)
         '''
