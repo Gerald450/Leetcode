@@ -36,4 +36,10 @@ class Solution:
         otp2 = rob2
 
         return max(otp1, otp2)
+
+
+        '''
+        runtime: O(n)
+        space: O(n) because of slices being created
+        '''
         
