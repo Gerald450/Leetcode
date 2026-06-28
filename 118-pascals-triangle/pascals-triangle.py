@@ -4,7 +4,7 @@ class Solution:
         input: int
         output: first int rows of pascal
 
-        edge: input is 1 or 2
+        edge: input is 1 
 
         plan:
         have an initial 2 rows in output
@@ -16,16 +16,23 @@ class Solution:
         
         otp = [[1]]
 
-        for i in range(2, numRows + 1):
+        for row in range(2, numRows + 1):
             res = []
-            for j in range(i):
-                if j == 0 or j == i - 1:
+            prev = otp[-1]
+
+            for j in range(row):
+                if j == 0 or j == row - 1:
                     res.append(1)
                 else:
-                    prev = otp[-1]
                     res.append(prev[j] + prev[j - 1])
 
             otp.append(res)
 
         return otp
+
+
+        '''
+        runtime: O(n^2)
+        additional space: O(n)
+        '''
         
