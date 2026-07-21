@@ -21,7 +21,7 @@ class Solution:
         
         def findWays(i):
 
-            if i >= len(s):
+            if i == len(s):
                 return 1
 
             if i in cache:
