@@ -40,3 +40,9 @@ class Solution:
 
 
         return findWays(0)
+
+
+        '''
+        runtime: O(n)
+        space: O(n) fo cache and recursion stack
+        '''
