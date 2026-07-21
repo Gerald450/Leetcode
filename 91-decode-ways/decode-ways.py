@@ -1,38 +1,42 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
         '''
-        input: string of nums
-        output: num of ways to decode
+        input: string
+        output: int: num of ways
 
-        edge: leading 0, len == 1
+        edge: empty, 1, 2, leading zero
 
-        plan: 
-        recursively calculate the valid ways
-        base: if we reach end return 1
-        increment ways with each valid call
+        plan:
+        recursion
+        if the value at that index is valid, recurse
+        if the value of the two adj indices is valid, recurse
+        accumulate ways along the way
+
+        base case: if we reach end of string =, return 1
+
+        return ways
         '''
+
         cache = {}
         
-        def recursion(i):
-            ways = 0
+        def findWays(i):
+
             if i >= len(s):
                 return 1
+
             if i in cache:
                 return cache[i]
 
-            
-            if s[i] != '0':
-                ways += recursion(i + 1)
-            
-            two_digits = s[i:i + 2]
-            if len(two_digits) != 1 and'10' <= two_digits <= '26':
-                ways += recursion(i + 2)
+            ways = 0
 
+            if s[i] != '0':
+                ways += findWays(i + 1)
+            if len(s[i:i+2]) == 2 and '10' <= s[i:i+2] <= '26':
+                ways += findWays(i + 2)
 
             cache[i] = ways
             return ways
 
 
-        
-        return recursion(0)
 
+        return findWays(0)
