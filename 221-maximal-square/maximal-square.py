@@ -31,27 +31,8 @@ class Solution:
                     maxLength = max(maxLength, 1)
                         
                 if matrix[row][col] == "1" and (row != 0 and col != 0) and inf not in checkInf:
-                    if dp[row - 1][col] == dp[row][col - 1] == dp[row - 1][col - 1]:
-                        dp[row][col] = int(dp[row - 1][col]) + 1
-
-
-                    else:
-
-                        if col-1 == 0 or row - 1 == 0:
-                            dp[row][col] = 2
-
-
-                        else:
-                           
-                            minNum = int(min(dp[row - 1][col], dp[row][col - 1],dp[row - 1][col - 1]))
-                            maxNum = int(max(dp[row - 1][col], dp[row][col - 1],dp[row - 1][col - 1]))
-
-                            if maxNum - minNum == 1:
-                                dp[row][col] = maxNum
-                            else:
-                                dp[row][col] = minNum + 1
+                    dp[row][col] = int(min(dp[row - 1][col], dp[row][col - 1],dp[row - 1][col - 1])) + 1
                         
-
                     maxLength = max(maxLength, dp[row][col])
 
                 elif matrix[row][col] == "0":
