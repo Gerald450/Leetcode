@@ -39,7 +39,7 @@ class Solution:
                     dp[row][col] = float('inf')
 
 
-        print(dp)
+
 
                 
 
