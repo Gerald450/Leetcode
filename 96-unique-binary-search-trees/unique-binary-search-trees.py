@@ -34,6 +34,12 @@ class Solution:
 
         return count(n)
 
+
+        '''
+        time: O(n^2)
+        space: O(n)
+        '''
+
             
 
             
