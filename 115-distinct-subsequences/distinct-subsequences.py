@@ -32,6 +32,7 @@ class Solution:
             
             if j >= len(t): return 1
             if i >= len(s): return 0
+            if len(s) - i < len(t) - j: return 0
             if (i, j) in cache: return cache[(i, j)]
             ways = 0
             ways += find_ways(i + 1, j)
@@ -44,7 +45,7 @@ class Solution:
     
         return find_ways(0, 0)
 
-
         '''
-
+        runtime: O(mn)
+        space: O(mn)
         '''
