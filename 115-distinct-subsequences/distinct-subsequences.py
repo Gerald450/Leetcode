@@ -32,23 +32,16 @@ class Solution:
             
             if j >= len(t): return 1
             if i >= len(s): return 0
-
             if (i, j) in cache: return cache[(i, j)]
             ways = 0
+            ways += find_ways(i + 1, j)
             if s[i] == t[j]:
-
                 #take
                 ways += find_ways(i + 1, j + 1)
-
-                #dont take
-                ways += find_ways(i + 1, j)
-
-            else:
-                ways += find_ways(i + 1, j)
-
             cache[(i, j)] = ways
             return ways
 
+    
         return find_ways(0, 0)
 
 
