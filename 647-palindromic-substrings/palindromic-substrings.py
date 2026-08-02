@@ -18,7 +18,7 @@ class Solution:
 
         for i in range(len(s)):
             
-            #even
+            #odd
             l, r = i, i
             while l >= 0 and r < len(s):
                 if s[l] == s[r]:
@@ -28,7 +28,7 @@ class Solution:
                 else:
                     break
 
-            #odd
+            #even
             l, r = i, i + 1
             while l >= 0 and r < len(s):
                 if s[l] == s[r]:
@@ -38,8 +38,12 @@ class Solution:
                 else:
                     break 
 
-
         return total
+
+        '''
+        runtime: O(n^2)
+        space: O(1)
+        '''
     
 
         
