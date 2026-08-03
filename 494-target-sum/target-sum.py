@@ -23,34 +23,36 @@ class Solution:
         '''
         cache = {}
 
-        def find_ways(i, sum):
-            if i == len(nums) - 1 and sum == target:
+        def find_ways(i, total):
+            if i == len(nums) - 1 and total == target:
                 return 1
 
             if i == len(nums) - 1:
                 return 0
 
-            if (i, sum) in cache:
-                return cache[(i, sum)]
-            
-            
+            if (i, total) in cache:
+                return cache[(i, total)]
+
+            if total - sum(nums[i+1:]) > target or total + sum(nums[i+1:]) < target:
+                return 0
             
             ways = 0
 
             #negative
             num = nums[i+1]
-            ways += find_ways(i+1, sum - num)
+            ways += find_ways(i+1, total - num)
 
             #positive
-            ways += find_ways(i+1, sum + num)
+            ways += find_ways(i+1, total + num)
 
-            cache[(i, sum)] = ways
+            cache[(i, total)] = ways
             return ways
 
         
         res = find_ways(-1, 0)
 
         return res
+
 
         '''
         find(-1, 0) {
