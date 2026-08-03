@@ -24,22 +24,20 @@ class Solution:
         cache = {}
 
         def find_ways(i, total):
-            if i == len(nums) - 1 and total == target:
+            if i == len(nums) and total == target:
                 return 1
 
-            if i == len(nums) - 1:
+            if i == len(nums) or total - sum(nums[i:]) > target or total + sum(nums[i:]) < target:
                 return 0
 
             if (i, total) in cache:
                 return cache[(i, total)]
 
-            if total - sum(nums[i+1:]) > target or total + sum(nums[i+1:]) < target:
-                return 0
             
             ways = 0
 
             #negative
-            num = nums[i+1]
+            num = nums[i]
             ways += find_ways(i+1, total - num)
 
             #positive
@@ -49,7 +47,7 @@ class Solution:
             return ways
 
         
-        res = find_ways(-1, 0)
+        res = find_ways(0, 0)
 
         return res
 
@@ -74,4 +72,7 @@ class Solution:
             }
 
         }
+
+        runtime: O(nS)
+        space:O(nS) + O(n) recursion stack
         '''
