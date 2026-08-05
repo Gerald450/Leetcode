@@ -20,10 +20,11 @@ class Solution:
 
         for i in range(1, len(nums)):
             
-            temp = currMax
+            prevMax = currMax
+            prevMin = currMin
             n = nums[i]
-            currMax = max(n, currMin * n, currMax * n)
-            currMin = min(n, currMin * n, temp * n)
+            currMax = max(n, prevMin * n, prevMax * n)
+            currMin = min(n, prevMin * n, prevMax * n)
 
             res = max(res, currMax)
 
@@ -31,11 +32,14 @@ class Solution:
         return res
 
         '''
-        [2,3,-2,4,-2]
+        [2,3,-2,4]
         ^
         currMax = -2  {4, -8, -48}
         currMin = -12
         res = 6
+
+        runtime: O(n)
+        space:O(1)
 
         '''
 
