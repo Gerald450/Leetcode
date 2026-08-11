@@ -44,12 +44,9 @@ class Solution:
                         for j in range(len(right)):
                             res.append(left[i] * right[j])
 
-           
-
             return res
           
-        output = dfs(expression)
-        return output
+        return dfs(expression)
 
         '''
         "2-1-1"
@@ -62,5 +59,8 @@ class Solution:
             right = [1]
             res = 0
 
+        
+        runtime: exponential
+        additional space: exponential plus O(n) recursion stack
         '''
         
