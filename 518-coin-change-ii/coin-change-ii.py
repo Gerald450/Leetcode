@@ -20,24 +20,16 @@ class Solution:
                 if curr - coin >= 0:
                     dp[curr] += dp[curr - coin]
         
-        print(dp)
         return dp[amount]
 
         '''
 
         dp = [0, 1, 0, 0, 0, 0]
                  ^
-        curr = 1 -> 6
-            coin = 1
-                1 - 1 = 0
-                dp[1] = 1 + dp[0] = 1
-        curr = 2 -> 6
-            coin = 1
-                2 - 1 = 1
-                dp[2] = 1 + dp[1] = 2
-            coin = 2
-                2 - 2 = 0
-                dp[2] = 1 + dp[0] = 1
+        n = len(coins)
+        m = ammout
+        runtime: O(nm)
+        space: O(m)
 
         '''
 
