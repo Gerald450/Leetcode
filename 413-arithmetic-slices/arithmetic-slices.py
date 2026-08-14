@@ -11,16 +11,12 @@ class Solution:
         []
         plan:
         generate diff array
-        if its first three check to see if the diffs are all equal, save it in dp array
+       
         for the next iterations, check last diff if it is equal to curr add 1
 
-
         '''
-        if len(nums) < 3:
-            return 0
 
         total = 0
-        dp = [0 for _ in range(len(nums) - 1)]
         diffs = [nums[i] - nums[i + 1] for i in range(len(nums) - 1)]
 
         prev = 0
@@ -37,11 +33,8 @@ class Solution:
 
 
         '''
-        [1,2,3,4]
-         ^     ^
-        i = 3
-        j = 0 -> 0
-        nums[0:3]
+        runtime: O(n)
+        space: O(n)
 
         '''
         
