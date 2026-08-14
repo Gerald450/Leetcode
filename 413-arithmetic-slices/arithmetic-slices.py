@@ -12,7 +12,7 @@ class Solution:
         plan:
         generate diff array
         if its first three check to see if the diffs are all equal, save it in dp array
-        for the next iterations > 3, check last 3 diffs if it is equal to curr add 1
+        for the next iterations, check last diff if it is equal to curr add 1
 
 
         '''
@@ -23,13 +23,17 @@ class Solution:
         dp = [0 for _ in range(len(nums) - 1)]
         diffs = [nums[i] - nums[i + 1] for i in range(len(nums) - 1)]
 
-        
+        prev = 0
         for i in range(1, len(diffs)):
+            
             if diffs[i] == diffs[i - 1]:
-                dp[i] = 1 + dp[i - 1]
+                prev += 1
+            else:
+                prev = 0
+            total += prev
 
 
-        return sum(dp)
+        return total
 
 
         '''
