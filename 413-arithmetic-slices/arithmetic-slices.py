@@ -17,12 +17,10 @@ class Solution:
         '''
 
         total = 0
-        diffs = [nums[i] - nums[i + 1] for i in range(len(nums) - 1)]
 
         prev = 0
-        for i in range(1, len(diffs)):
-            
-            if diffs[i] == diffs[i - 1]:
+        for i in range(2, len(nums)):
+            if nums[i] - nums[i - 1] == nums[i - 1] - nums[i - 2]:
                 prev += 1
             else:
                 prev = 0
@@ -34,7 +32,7 @@ class Solution:
 
         '''
         runtime: O(n)
-        space: O(n)
+        space: O(1)
 
         '''
         
