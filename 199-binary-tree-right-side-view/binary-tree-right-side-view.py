@@ -4,27 +4,45 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-from collections import deque
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        '''
+        input: root
+        output: right side view[int]
+
+        edge: empty root
+
+        plan:
+        use bfs
+        at every level append the last num
+        '''
+        from collections import deque
         if not root:
             return []
-
-        q = deque([root])
         otp = []
 
+        q = deque([root])
+
         while q:
-            otp.append(q[-1].val)
-            for i in range(len(q)):
+            for _ in range(len(q)):
                 node = q.popleft()
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
 
-            
+            otp.append(node.val)
         
+
         return otp
+
+        '''
+        q = []
+        node = 1
+
+        
+        runtime: O(n)
+        additional space: O(1)
+        '''
 
         
