@@ -56,6 +56,8 @@ class Solution:
          }
          r = 0, l = 0
          
+         Time: O(n)
+         space: O(k)
        
 
         '''
