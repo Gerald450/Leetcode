@@ -28,8 +28,8 @@ class Solution:
         return result
 
         '''
-        runtime: O(n)
-        space: O(n)
+        runtime: O(n.2^n)
+        space: O(n.2^n)
         '''
             
 
