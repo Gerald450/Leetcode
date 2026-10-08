@@ -7,13 +7,14 @@ class Solution:
         store pos and moves in deque
         '''
         n = len(board)
-        board.reverse()
+        # board.reverse()
 
         def PosToCord(num):
             row = (num - 1) // n
             col = (num - 1) % n
             if row % 2:
                 col = n - 1 - col
+            row = n - 1 - row
             return (row, col)
 
         q = deque([(1, 0)]) #pos, moves
@@ -27,14 +28,19 @@ class Solution:
                 r,c = PosToCord(newPos)
                 if board[r][c] != -1:
                     newPos = board[r][c]
-                
                 if newPos not in seen:
                     seen.add(newPos)
                     q.append((newPos, moves + 1))
-                if newPos  == pow(n, 2):
+                if newPos == pow(n, 2):
                     return moves + 1
                 
         return -1
+
+
+        '''
+        runtime: O()
+        space:O()
+        '''
 
        
 
