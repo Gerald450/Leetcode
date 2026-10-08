@@ -7,7 +7,6 @@ class Solution:
         store pos and moves in deque
         '''
         n = len(board)
-        # board.reverse()
 
         def PosToCord(num):
             row = (num - 1) // n
@@ -18,7 +17,6 @@ class Solution:
             return (row, col)
 
         q = deque([(1, 0)]) #pos, moves
-
         seen = set()
 
         while q:
@@ -38,8 +36,8 @@ class Solution:
 
 
         '''
-        runtime: O()
-        space:O()
+        runtime: O(n^2)
+        space:O(n^2)
         '''
 
        
