@@ -47,4 +47,10 @@ class Solution:
 
         return build(n)
 
+
+        '''
+        runtime:O(Catalan num at index k) k = (n-1)/2
+        space:O(Catalan num at index k) k = (n-1)/2
+        '''
+
         
