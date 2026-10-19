@@ -7,50 +7,48 @@
 class Solution:
     def allPossibleFBT(self, n: int) -> list[TreeNode | None]:
         '''
-        Note: only odd nums form full trees
-        edge: even num
+        edge: even num of nodes
 
         plan:
-        use recursion with memoization
-        make a helper recursive build function that returns the trees
-        each combination should have it's own trees array
-        use a loop to try new combos
+        use recursion
+        use memoization
+        if num of nodes is even: return []
+        use a loop to make differnt iterations of left_nodes and right_nodes
+        use another loop to make the trees and add the head to the otp list
+        return trees in recursive func
         '''
 
         memo = {}
 
-        def build(nodes):
+        def make_tree(nodes):
             if nodes % 2 == 0:
                 return []
-            if nodes == 1:
-                return [TreeNode()]
+
             if nodes in memo:
                 return memo[nodes]
 
-            trees = []
+            if nodes == 1:
+                return [TreeNode()]
+            
+            tree = []
+            
+            for left_count in range(1, nodes, 2): #odd nums only
+                right_count = nodes - left_count - 1
 
-            for left_count in range(1, nodes, 2):
-                right_count = nodes - 1 - left_count
+                left_nodes = make_tree(left_count)
+                right_nodes = make_tree(right_count)
 
-                left_nodes = build(left_count)
-                right_nodes = build(right_count)
 
                 for left in left_nodes:
                     for right in right_nodes:
                         root = TreeNode()
-                        root.right = right
                         root.left = left
-                        trees.append(root)
+                        root.right = right
+                        tree.append(root)
 
-            memo[nodes] = trees
-            return trees
+            memo[nodes] = tree
+            return tree
 
-        return build(n)
+        return make_tree(n)
 
 
-        '''
-        runtime:O(Catalan num at index k) k = (n-1)/2
-        space:O(Catalan num at index k) k = (n-1)/2
-        '''
-
-        
